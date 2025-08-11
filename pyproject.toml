@@ -1,0 +1,15 @@
+[project]
+name = "jukebox"
+version = "0.1.0"
+authors = [
+    { name = "Isaac Sánchez", email = "isaac@elrincondelsanchez.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "mutagen>=1.47.0",
+    "textual>=5.3.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
